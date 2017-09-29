@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.katarie.checkpoint1katarie.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"/>
+
+    <EditText
+        android:id="@+id/prenon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prenom"/>
+
+    <EditText
+        android:id="@+id/ecole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ecole"/>
+
+    <EditText
+        android:id="@+id/langage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Langage"
+        android:textColor="@color/red"/>
+    <Button
+        android:id="@+id/evoyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Envoyer"/>
+
+</LinearLayout>
